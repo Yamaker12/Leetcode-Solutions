@@ -7,7 +7,7 @@ class Solution(object):
        else: 
           return False
        
-
+#ainda possui muitos furos pois se forem números como 1331 ou 11 ou 13331 e assim por diante, ele provavelmente vai dar error ou null
     
 sol = Solution()
 print(sol.isPalindrome(121))
